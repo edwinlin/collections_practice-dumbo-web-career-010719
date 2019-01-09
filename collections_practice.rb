@@ -36,8 +36,12 @@ def find_a(strings)
   end
 end
 
-def sum_array
-  
+def sum_array(ints)
+  sum = 0
+  ints.each do |int|
+    sum += int
+  end
+  return sum
 end
 
 def add_s
