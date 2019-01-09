@@ -32,7 +32,7 @@ end
 
 def find_a(strings)
   res = strings.map do |string|
-    if string[0] == "a"
+    if string.start_with?("a")
       string
     end
   end
