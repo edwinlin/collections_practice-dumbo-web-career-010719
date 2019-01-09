@@ -12,7 +12,11 @@ def sort_array_char_count(strings)
 end
 
 def swap_elements(array)
-  array[]
+  new_array = []
+  new_array << array[0]
+  new_array << array[1..2].reverse
+  new_array << array[3..-1]
+  return new_array
 end
 
 def reverse_array
