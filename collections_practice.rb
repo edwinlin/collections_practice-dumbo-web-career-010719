@@ -48,6 +48,8 @@ def add_s(words)
   words.each_with_index.map do |word, idx|
     if idx != 1
       word + "s"
+    else
+      word
     end
   end
 end
