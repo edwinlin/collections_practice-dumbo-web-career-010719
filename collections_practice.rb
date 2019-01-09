@@ -32,9 +32,7 @@ end
 
 def find_a(strings)
   res = strings.select do |string|
-    if string.start_with?("a")
-      string
-    end
+    string.start_with?("a")
   end
   return res
 end
