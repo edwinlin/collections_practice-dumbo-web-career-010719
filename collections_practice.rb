@@ -17,7 +17,7 @@ def swap_elements(array)
   new_array << array[0]
   new_array << array[1..2].reverse
   new_array << array[3..-1]
-  p new_array.flatten
+  return new_array.flatten
 end
 
 def reverse_array
