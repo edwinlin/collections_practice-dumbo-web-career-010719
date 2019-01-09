@@ -45,7 +45,9 @@ def sum_array(ints)
 end
 
 def add_s(words)
-  words.map.with_index do |word|
-    word + "s"
+  words.each_with_index.map do |word, idx|
+    if idx != 1
+      word + "s"
+    end
   end
 end
