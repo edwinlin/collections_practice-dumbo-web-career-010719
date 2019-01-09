@@ -31,9 +31,10 @@ def kesha_maker(arrstr)
 end 
 
 def find_a(strings)
-  strings.select do |string|
+  res = strings.select do |string|
     string.start_with?("a")
   end
+  p res
 end
 
 def sum_array
