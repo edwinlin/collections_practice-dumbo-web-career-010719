@@ -31,7 +31,7 @@ def kesha_maker(arrstr)
 end 
 
 def find_a(strings)
-  res = strings.map do |string|
+  res = strings.select do |string|
     if string.start_with?("a")
       string
     end
