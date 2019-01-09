@@ -19,9 +19,15 @@ def swap_elements(array)
   return new_array.flatten
 end
 
-def reverse_array
+def reverse_array(arr)
+  arr.reverse
 end
-def kesha_maker
+
+def kesha_maker(arrstr)
+  arrstr.each do |word|
+    word[2] = "$"
+  end
+  return arrstr
 end 
 def find_a
 end
