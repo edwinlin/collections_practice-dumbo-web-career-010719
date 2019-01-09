@@ -32,7 +32,9 @@ end
 
 def find_a(strings)
   res = strings.map do |string|
-    return string if string[0] == ("a")
+    if string[0] == "a"
+      string
+    end
   end
   return res
 end
