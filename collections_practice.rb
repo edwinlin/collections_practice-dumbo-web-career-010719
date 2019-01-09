@@ -29,8 +29,11 @@ def kesha_maker(arrstr)
   end
   return arrstr
 end 
+
 def find_a
+  
 end
+
 def sum_array
 end
 def add_s
