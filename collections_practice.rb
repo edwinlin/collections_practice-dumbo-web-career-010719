@@ -44,5 +44,8 @@ def sum_array(ints)
   return sum
 end
 
-def add_s
+def add_s(words)
+  words.map do |word|
+    word + "s"
+  end
 end
